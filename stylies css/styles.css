@@ -44,6 +44,9 @@ header{
   background-repeat:no-repeat ;
   background-position:top left ,right bottom ;
 }
+   .text-center{
+    text-align: center;
+   }
     nav{
         width: 71%;
         max-width: 1140px; 
@@ -213,3 +216,48 @@ resume-card .card-text {
     line-height: 28px;
     
 }
+
+
+
+footer{
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #FFF8F3;
+
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container h2{
+    color: #181818;
+    /* margin bottom: 20px; */
+    padding-bottom: 20px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container .social p{
+color:#474747;
+line-height: 28px;
+font-size: 16px;
+max-width: 502px;
+margin-bottom: 30px;
+}
+.footer-container .icons a {
+    margin-right: 24px;
+
+}
+  
+.footer-container .form input[ type="text"] , .footer-container .form input textarea {
+        
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
